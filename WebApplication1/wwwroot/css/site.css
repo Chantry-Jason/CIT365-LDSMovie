@@ -1,0 +1,113 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: url('../images/pufGaK.jpg');
+    background-color: black;
+}
+.mainPageArticle {
+    background-color: rgba(0,0,0,0.5);
+    color: wheat;
+}
+.body-content h2 {
+    color: wheat;
+}
+.body-content a {
+    color: gold;
+    
+}
+.mainPageArticle {
+    position: relative;
+    
+}
+
+.mainPageArticle img {
+    width: 100%;
+    height: auto;
+}
+.menuAside h2 {
+    text-align: center;
+
+}
+.menuAside a:hover {
+    color: white;
+    background-color: red;
+    width: 100%;
+}
+.menuAside {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-color: rgba(255,255,255,0.3);
+    
+}
+.searchFields {
+    color: black;
+}
+.searchFields input {
+    color: black;
+}
+.bottomAside {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24pt;
+    background-color: rgba(0,0,0,0.5);
+}
+footer {
+    background-color: darkred;
+    width: 104%;
+    height: 25px;
+    margin-left: -15px;
+    color: wheat;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.navbar {
+    background-color: darkred;
+
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 997px) {
+
+    .bottomAside {
+        font-size: 18pt;
+        bottom: 10px;
+        left: 5px;
+        right: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .bottomAside {
+        position: inherit;
+        font-size: 16pt;
+        bottom: 10px;
+        left: 5px;
+        right: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
